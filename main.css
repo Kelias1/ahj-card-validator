@@ -1,0 +1,145 @@
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 3px;
+  margin-bottom: 15px;
+}
+
+.card {
+  width: 40px;
+  height: 40px;
+  background-position: 50%;
+}
+
+.visa {
+  background-image: url(545145c60c726b397f61.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.master-card {
+  background-image: url(c4e9401087382c69cf65.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.american {
+  background-image: url(228fdc9921dd3ed46ed4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.discover {
+  background-image: url(dde5b0a44a37a5ef0adb.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mir {
+  background-image: url(ee68fa66dc6ee5f0e302.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.jcb {
+  background-image: url(5f143e0c4575a667d6e8.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.diners {
+	background-image: url(7c4db43790300d12086e.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.active {
+  filter: none;
+}
+
+.container {
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.input-field,
+.btn {
+  height: 30px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+
+.input-field {
+  width: 170px;
+  margin-right: 8px;
+  vertical-align: middle;
+  color: #555;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  border: 1px solid transparent;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #1e501e;
+}
+
+.input-field:focus {
+  border-color: #66afe9;
+  box-shadow:
+    inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.answer {
+  width: 100%;
+}
+
+.success,
+.failure {
+  display: none;
+  width: 100%;
+  height: 30px;
+}
+
+.show_answer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 8px;
+  padding-left: 45px;
+}
+
+.icon {
+  height: 100%;
+  width: auto;
+}
+
+.icon-check {
+	background-image: url(7c9c10d31449ce5caafa.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon-cancel {
+	background-image: url(b0b94a7538f4518a52d0.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
