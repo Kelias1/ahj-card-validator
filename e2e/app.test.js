@@ -47,7 +47,7 @@ describe("Credit Card Validator form", () => {
 
     test("Should change Mastercard color", async () => {
       await page.type(".input-field", "56");
-      const card = await page.$eval(".mcd", (el) => el.className);
+      const card = await page.$eval(".master-card", (el) => el.className);
       expect(card).toContain("active");
     });
 
@@ -59,7 +59,7 @@ describe("Credit Card Validator form", () => {
 
     test("Should change Мир color", async () => {
       await page.type(".input-field", "28");
-      const card = await page.$eval(".pease", (el) => el.className);
+      const card = await page.$eval(".mir", (el) => el.className);
       expect(card).toContain("active");
     });
 
@@ -71,13 +71,13 @@ describe("Credit Card Validator form", () => {
 
     test("Should change Dinners color", async () => {
       await page.type(".input-field", "36");
-      const card = await page.$eval(".dinners", (el) => el.className);
+      const card = await page.$eval(".diners", (el) => el.className);
       expect(card).toContain("active");
     });
 
     test("Should change American express color", async () => {
       await page.type(".input-field", "32");
-      const card = await page.$eval(".am_ex", (el) => el.className);
+      const card = await page.$eval(".american", (el) => el.className);
       expect(card).toContain("active");
     });
   });
